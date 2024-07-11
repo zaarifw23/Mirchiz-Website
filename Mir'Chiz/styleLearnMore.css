@@ -1,0 +1,54 @@
+body{
+    background-color: hsl(0, 4%, 50%);
+}
+
+.learnmore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10em;
+}
+
+.vision{
+    padding: 1em;
+    margin-left: 25px;
+    width:50%;
+    font-size: 1.75em;
+    color: hsl(0, 17%, 87%);
+}
+
+.learnMore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5em;
+    margin-right: 0;
+}
+
+.mission{
+    padding: 1em;
+    margin-left: 50%;
+    width:50%;
+    font-size: 1.75em;
+    color: hsl(0, 17%, 87%);
+}
+
+h3{
+    font-size:1.25em;
+    color: hsl(0, 26%, 70%);
+}
+
+.lmPic01 img{
+    position: absolute;
+    margin-top: 45px;
+    width: 620px;
+    height: 370px;
+}
+
+.lmPic02 img{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 1000px;
+    width: 620px;
+    height: 370px;
+}

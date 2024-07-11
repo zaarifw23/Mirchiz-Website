@@ -1,0 +1,37 @@
+*{
+    text-transform: capitalize;
+}
+
+
+section{
+    padding: 2.1em 7%;
+}
+
+.menu{
+   
+    padding-top: 10em;
+}
+.menu .menuBox{
+    gap: 1.5em;
+}
+
+.menu .menuBox .menuItems{
+    padding:3em;
+}
+
+.menu .menuBox .menuItems img{
+    height: 23em;
+    width: 80%;
+}
+
+.menu .menuBox .menuItems h3{
+    font-size: 2em;
+}
+
+.menu .menuBox .menuItems .price{
+    font-size: 1.5em;
+}
+
+body{
+    background-color: hsl(0, 0%, 28%);
+}

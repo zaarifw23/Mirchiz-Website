@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body onload="displayCart()">
+
+    <!--Header-->
+    <header class="Header">
+        <a href="index.php"><img src="Pictures/Logo.jpg" class="Logo"></a>
+        
+        <nav class="navBar">
+            <a href="index.php">Home</a>
+            <a href="index.php#menu">Menu</a>
+            <a href="index.php#about">About</a>
+            <a href="index.php#contact">Contact</a>
+            <a href="Login.php">Login</a>
+            
+        </nav>
+
+        <div class="headerIcons">
+            <div class="fas fa-search" id="searchButton"></div>
+            <div class="fas fa-shopping-cart" id="cartButton"></div>            
+        </div>
+
+        <div class="searchForm">
+            <input type="search" class="searchBox" placeholder="Search...">
+            <label for="searchBox" class="fas fa-search"></label>
+        </div>
+
+        <div class="cartBox">
+            <div class="cartBar">
+                <div class="cartItems">
+                        <ul id="cartlist">
+                            Your Cart is Empty
+                        </ul>
+                </div>
+               
+              <div class="cartFooter">
+                    <h3>Total</h3>
+                    <h2 id="total">0.00 LKR</h2>
+                </div>
+            </div>
+            <a href="checkout.php" class="button" onclick="clearCart()">Checkout Now</a>
+            <button class="button" onclick="clearCart()">Clear Cart</button>
+         </div>
+    </header>
+
+    <!-- Privacy Policy -->
+    <section class="pPolicy">
+        <div class="policy">
+                <h1>Privacy Policy</h1>
+                <h2>1. Information We Collect</h2>
+                <p>We may collect the following types of personal information:</p>
+                <ul>
+                    <li>Contact Information: This may include your name, email address, phone number, and postal address.</li>
+                    <li>Payment Information: When you make a payment, we may collect payment card details or other financial information, depending on the payment method.</li>
+                    <li>Website Usage: We may collect information about how you use our website, including your IP address, browser type, and device information.</li>
+                </ul>
+                
+                <h2>2. How We Use Your Information</h2>
+                <p>We use your personal information for the following purposes:</p>
+                <ul>
+                    <li>To provide restaurant services, including reservations and dining experiences.</li>
+                    <li>To process payments and confirm reservations.</li>
+                    <li>To send you updates, offers, and newsletters with your consent.</li>
+                    <li>To improve our website and services.</li>
+                    <li>To respond to your inquiries and requests.</li>
+                </ul>
+        
+                <h2>3. Data Security</h2>
+                <p>We take reasonable measures to protect your personal information from unauthorized access or disclosure. Our staff is trained to handle your information with care.</p>
+
+                <h2>4. Data Sharing</h2>
+                <p>We do not share your personal information with third parties for marketing purposes. However, we may share information with our trusted partners who assist us in providing our services.</p>
+                
+                <h2>5. Cookies and Tracking Technologies</h2>
+                <p>We may use cookies and similar tracking technologies on our website to enhance your user experience. You can manage your cookie preferences through your browser settings.</p>
+
+                <h2>6. Third-Party Links</h2>
+                <p>Our website may contain links to third-party websites. We are not responsible for the privacy practices of these websites. Please review their privacy policies before providing any personal information.</p>
+
+                <h2>7. Your Choices</h2>
+                <p>You have the right to access, correct, or delete your personal information. If you wish to do so or have any questions about our Privacy Policy, please contact us using the information below.</p>
+
+                <h2>8. Updates to the Privacy Policy</h2>
+                <p>We may update this Privacy Policy to reflect changes in our practices or for legal reasons. The latest version of our Privacy Policy will always be available on our website.</p>
+
+                <h2>9. Contact Information</h2>
+                <p>If you have any questions or concerns about our Privacy Policy or how we handle your personal information, please contact us at:</p>
+
+                <p>
+                    Mir'chiz<br>
+                    Address: 81/6, 1st Lane, Lake Road, Attidiya<br>
+                    Email: mirchiz@gmail.com<br>
+                    Phone: +94 77 747 7401
+                </p>
+
+                <p>Thank you for choosing Mir'chiz. We appreciate your trust and strive to provide you with an exceptional dining experience. Your privacy is important to us, and we are dedicated to protecting your personal information.</p>
+
+        </div>  
+    </section>
+    <!--Footer-->
+
+    <section class="footer">
+        <div class="socials">
+            <a href="https://www.facebook.com/foodrack.lk" target="_blank" class="fab fa-facebook"></a>
+            <a href="https://www.instagram.com/mir.chiz/" target="_blank" class="fab fa-instagram"></a>
+            <a href="https://wa.link/hqw4hd" target="_blank" class="fab fa-whatsapp"></a>
+        </div>
+
+        <div class="privacy-terms"><a  class="privacy-terms" href="privacy.html">Privacy Policy</a> | <a class="privacy-terms" href="terms.html">Terms and Conditions</a></div>
+        <div class="creator">Created By <span>M. Z. Waznie</span> | All Rights Reserved</div>
+    </section>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

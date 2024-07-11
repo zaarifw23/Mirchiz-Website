@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T&C</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body onload="displayCart()">
+
+    <!--Header-->
+    <header class="Header">
+        <a href="index.php"><img src="Pictures/Logo.jpg" class="Logo"></a>
+        
+        <nav class="navBar">
+            <a href="index.php">Home</a>
+            <a href="index.php#menu">Menu</a>
+            <a href="index.php#about">About</a>
+            <a href="index.php#contact">Contact</a>
+            <a href="Login.html">Login</a>
+            
+        </nav>
+
+        <div class="headerIcons">
+            <div class="fas fa-search" id="searchButton"></div>
+            <div class="fas fa-shopping-cart" id="cartButton"></div>            
+        </div>
+
+        <div class="searchForm">
+            <input type="search" class="searchBox" placeholder="Search...">
+            <label for="searchBox" class="fas fa-search"></label>
+        </div>
+
+        <div class="cartBox">
+            <div class="cartBar">
+                <div class="cartItems">
+                        <ul id="cartlist">
+                            Your Cart is Empty
+                        </ul>
+                </div>
+               
+                <div class="cartFooter">
+                    <h3>Total</h3>
+                    <h2 id="total">0.00 LKR</h2>
+                </div>
+            </div>
+            <a href="checkout.php" class="button" onclick="clearCart()">Checkout Now</a>
+            <button class="button" onclick="clearCart()">Clear Cart</button>
+         </div>
+    </header>
+
+    <!-- Privacy Policy -->
+    <section class="pPolicy">
+        <div class="policy">
+                <h1>Terms and Conditions</h1>
+                <p>Welcome to Mir'Chiz Takeout! Before you place your order with us, please take a moment to read and understand our terms and conditions, which apply to all customers ordering from our website.</p>
+                <h2>1.Ordering and Menu</h2>
+                <p>We may collect the following types of personal information:</p>
+                <ul>
+                    <li>Welcome to Mir'Chiz Takeout! Before you place your order with us, please take a moment to read and understand our terms and conditions, which apply to all customers ordering from our website.</li>
+                    <li>Our menu items and prices are subject to change without prior notice</li>
+                </ul>
+                
+                <h2>2.Payment and Pricing</h2>
+                <p>We accept various payment methods, including credit cards and digital wallets, through our secure online platform.</p>
+                <ul>
+                    <li>A service charge and taxes may be added to your order as applicable.</li>
+                </ul>
+        
+                <h2>3.Cancellations and Changes</h2>
+                <p> Once an order is confirmed, it cannot be canceled or changed. Please double-check your order before finalizing it.</p>
+
+                <h2>4.Privacy and Data</h2>
+                <p>We value your privacy and handle your personal information in accordance with our privacy policy.</p>
+                
+                <h2>5.Feedback and Concerns</h2>
+                <p>We appreciate your feedback. If you have any concerns or suggestions, please contact us through the provided channels on our website.</p>
+
+                <h2>6.Intellectual Property</h2>
+                <p>All content on our website is owned by Mir'Chiz and should not be used without our permission.</p>
+
+                <h2>7.Force Majeure</h2>
+                <p>Mir'Chiz Takeout is not liable for any disruptions or cancellations caused by events beyond our control.</p>
+
+                <h2>8.Changes to Terms and Conditions</h2>
+                <p>We reserve the right to update these terms and conditions as needed. Please check our website periodically for any changes.</p>
+
+                <p>By placing an order through the Mir'Chiz Takeout website, you agree to abide by these terms and conditions. If you do not agree with any of these terms, please refrain from using our online ordering service.</p>
+
+                <p>Thank you for choosing Mir'Chiz Takeout. We look forward to serving you and providing you with a delicious takeout experience through our website!</p>
+        </div>  
+    </section>
+    <!--Footer-->
+
+    <section class="footer">
+        <div class="socials">
+            <a href="https://www.facebook.com/foodrack.lk" target="_blank" class="fab fa-facebook"></a>
+            <a href="https://www.instagram.com/mir.chiz/" target="_blank" class="fab fa-instagram"></a>
+            <a href="https://wa.link/hqw4hd" target="_blank" class="fab fa-whatsapp"></a>
+        </div>
+
+        <div class="privacy-terms"><a  class="privacy-terms" href="privacy.html">Privacy Policy</a> | <a class="privacy-terms" href="terms.html">Terms and Conditions</a></div>
+        <div class="creator">Created By <span>M. Z. Waznie</span> | All Rights Reserved</div>
+    </section>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="trackOrder.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!--Header-->
+    <header class="Header">
+        <a href="index.php"><img src="Pictures/Logo.jpg" class="Logo"></a>
+        
+        <a href="index.php" class="button">Home</a>
+    </header>
+
+    <!--Tracker Box -->
+    <div class="trackBox">
+        <div class="orderDetails">        
+            <div class="orderNo">
+                <h1>Order: <span>#120A</span></h1>
+            </div>
+            <div class="Arrival">
+                <p>Expected Arrival In: 50 Minutes</p>
+            </div>
+        </div>
+        <div class="orderTrack">
+            <ul id="progress" class="center">
+                <li class="active"></li>
+                <li class="active"></li>
+                <li class="active"></li>
+                <li class=""></li>
+            </ul>
+        </div>
+
+        <div class="trackerLists">
+            <div class="trackerList">
+                <div class="fas fa-clipboard-check icon"></div>
+                <p>Order <br> Processed</p>
+            </div>
+            <div class="trackerList">
+                <div class="fas fa-kitchen-set icon"></div>
+                <p>Order <br> Preparing</p>
+            </div>
+            <div class="trackerList">
+                <div class="fas fa-truck icon"></div>
+                <p>Order <br> Enroute</p>
+            </div>
+            <div class="trackerList">
+                <div class="fas fa-utensils icon"></div>
+                <p>Order <br> Delivered</p>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+</body>
+</html>    

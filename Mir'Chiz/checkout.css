@@ -1,0 +1,170 @@
+@font-face{
+    src:url(Lato-Light.ttf);
+    font-family: Lato-Light;
+}
+html{
+  font-size: 70%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 9em;
+  overflow-x: hidden;
+}
+
+*{
+  margin:0;
+  box-sizing: border-box;
+  padding:0;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: 0.5s ease;
+}
+
+body {
+    background-color: hsl(0, 16%, 56%);
+    font-size: 17px;
+    font-family: Lato-Light;
+    padding: 8px;
+  }
+  
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgb(157, 157, 157);
+    transition: 0.3s;
+    width: 50%;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    height: 90vh;
+    animation-name: anime;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+h1{
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%;
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%;
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%;
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: hsl(0, 3%, 79%);
+    padding: 5px 20px 15px 20px;
+    border: 1px solid hsl(0, 0%, 83%);
+    border-radius: 3px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 3px;
+  }
+
+  input[type="text"]:active{
+    border: 1px solid hsl(0, 8%, 54%);
+  } 
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+#myBtn{
+    margin-top:1.5em;
+    margin-bottom: 1.5em;
+    display: inline-block;
+    padding:.9em 3em;
+    font-size: 1em;
+    background: hsl(0, 16%, 56%);
+    color:hsl(0, 17%, 87%);
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.5s ease;
+}
+
+#myBtn:hover{
+    color:hsl(0, 16%, 56%);
+    background-color: hsl(0, 17%, 87%);
+}
+
+.button{
+    margin-left: 295px;
+    margin-top:1.5em;
+    margin-bottom: 1.5em;
+    display: inline-block;
+    padding:.9em 3em;
+    font-size: 1em;
+    background: hsl(0, 16%, 56%);
+    color:hsl(0, 17%, 87%);
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.5s ease;
+}
+
+.button:hover{
+    color:hsl(0, 16%, 56%);
+    background-color: hsl(0, 17%, 87%);
+}
+
+.OrderDeets {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #fff; /* Set your desired background color */
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 999; /* Set a higher z-index to ensure it's on top of other elements */
+  font-family: 'Lato-Light'; /* Apply the custom font */
+  font-size: 16px; /* Adjust font size if needed */
+  color: #333; /* Set your desired text color */
+}
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+  
